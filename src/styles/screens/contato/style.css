@@ -1,0 +1,89 @@
+section {
+   background-image: url('/assets/imagens/manda-um-alo.png');
+   width: 100vw;
+   height: 50vh;
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+ 
+ section h1 {
+   color: #FFF;
+   font-size: var(--font-size-larger);
+   width: 410px;
+   position: absolute;
+   top: 20%;
+   left: 10%;
+ }
+ 
+ main {
+   margin: 60px 0px;
+   height: 100%;
+   width: 85%;
+   display: flex;
+   justify-content: center;
+ }
+ 
+ main img {
+   height: 600px;
+ }
+
+ form legend {
+   color: var(--primary-color);
+   font-size: 36px;
+ }
+
+ form {
+   width: 800px;
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border: 1px solid var(--dark-primary-color);
+   border-radius: 20px;
+   margin-left: 16px;
+   padding-left: 5%;
+ }
+ 
+ form input {
+   width: 90%;
+   padding: 12px;
+   border-radius: 7px;
+   border: 1px solid var(--dark-primary-color);
+   outline: none;
+ }
+ 
+ form input:focus {
+   box-shadow: 0px 2px 4px #000;
+ }
+ 
+ textarea {
+   width: 90%;
+   height: 50%;
+   resize: none;
+   padding: 12px;
+   border-radius: 7px;
+   border: 1px solid var(--dark-primary-color);
+   outline: none;
+ }
+
+ textarea:focus {
+  box-shadow: 0px 2px 4px #000;
+ }
+
+ button {
+   font-size: medium;
+   width: 164px;
+   padding: 14px;
+   border-radius: 50px;
+   border: 0;
+   color: #FFF;
+   background-color: var(--primary-color);
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #f5be5f;
+   transition: 0.5s;
+   box-shadow: 0px 2px 2px #000;
+ }

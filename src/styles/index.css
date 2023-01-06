@@ -1,0 +1,97 @@
+main {
+    width: 50%;
+}
+
+.secao-generica {
+    width: 100vw;
+    height: 100vh;
+}
+
+#receitas-com-afeto {
+    background-image: url('../../assets/imagens/receitas-com-afeto.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+h1 {
+    width: 500px;
+    font-size: 90px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    position: absolute;
+    top: 32%;
+    left: 66%;
+}
+
+#card-horizontal {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-receita img {
+    width: 460px;
+}
+
+.card-receita strong {
+    margin: 15px 0px;
+    font-size: var(--font-size-md);
+}
+
+.card-receita button {
+    font-weight: 700;
+    font-size: var(--font-size-md);
+    width: 150px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    background-color: var(--bg-button);
+    cursor: pointer;
+}
+
+.card-receita button:hover {
+    background-color: #3c9e23;
+    transition: 0.4s;
+}
+
+#titulo-receitas-da-semana {
+    padding: 65px;
+    font-size: var(--font-size-big);
+    color: var(--dark-primary-color);
+    text-align: center;
+}
+
+#comer-e-viver {
+    position: relative;
+    background-image: url('../../assets/imagens/comer-e-viver.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo-comer-e-viver {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    font-size: 90px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#comer-e-viver p {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: #fff;
+    font-weight: 400;
+    width: 600px;
+    font-size: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

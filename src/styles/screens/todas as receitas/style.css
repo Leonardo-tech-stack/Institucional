@@ -1,0 +1,48 @@
+main {
+    padding-block-end: 60px;
+}
+
+#titulo-todas-as-receitas {
+    padding-top: 75px;
+    padding-left: 155px;
+    font-size: var(--font-size-big);
+    color: var(--dark-primary-color);
+}
+
+#card-horizontal {
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-receita img {
+    width: 460px;
+}
+
+.card-receita strong {
+    margin: 15px 0px;
+    font-size: var(--font-size-md);
+}
+
+.card-receita button {
+    font-weight: 700;
+    font-size: var(--font-size-md);
+    width: 150px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    background-color: var(--bg-button);
+    cursor: pointer;
+}
+
+.card-receita button:hover {
+    background-color: #3c9e23;
+    transition: 0.4s;
+}
+

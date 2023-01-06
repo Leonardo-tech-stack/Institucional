@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    /* Cores */
+    --dark-primary-color: #ffa000;
+    --light-primary-color: #ffecb3;
+    --primary-color: #ffc107;
+    --text-and-icons: #212121;
+    --accent-color: #757575;
+    --divider-color: #bdbdbd;
+    --bg-button: #176902;
+
+    /* Fontes */
+    --font-size-sm: 20px;
+    --font-size-md: 31px;
+    --font-size-big: 56px;
+    --font-size-larger: 72px;
+}

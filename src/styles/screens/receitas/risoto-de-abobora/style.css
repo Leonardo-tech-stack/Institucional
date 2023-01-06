@@ -1,0 +1,102 @@
+#root {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ main {
+    width: 68%;
+  }
+
+ h1 {
+    padding-top: 59px;
+    font-size: 45px;
+    color: var(--dark-primary-color);
+  }
+
+ #risoto-tags img {
+    padding-top: 18px;
+    padding-block-end: 21px;
+    width: 770px;
+    height: 410px;
+  }
+
+  #risoto-tags div {
+    padding-block-end: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  .tags {
+    font-weight: 550;
+    border: 1px solid #176902;
+    border-radius: 47px; 
+    padding: 4px; 
+    min-width: 100px; 
+    text-align: center;  
+    color: #176902;
+    margin-right: 13px;
+  }
+
+  #risoto-tags {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lista {
+    height: 350px;
+  }
+
+  h2{
+    font-size: var(--font-size-sm);
+    padding-top: 30px;
+  }
+
+  h3 {
+    font-size: var(--font-size-sm);
+    height: 40px;
+  }
+
+  h4 {
+    font-size: var(--font-size-sm);
+    height: 85px;
+    padding-top: 50px;
+  }
+  
+  p {
+    font-weight: 100;
+    padding-block-end: 80px;
+    width: 750px;
+    text-transform: lowercase;
+  }
+
+  h5 {
+    margin-block-end: 30px;
+    font-size: 30px;
+    padding-top: 125px;
+    color: var(--dark-primary-color);
+    font-weight: 100;
+  }
+
+  .card-related-recipes {
+    margin-block-end: 43px;
+    display: flex; 
+    flex-direction: column; 
+    font-size: large;
+  }
+  
+  .card-related-recipes img {
+    width: 310px;
+    height: 330px;
+  }
+
+  .card-related-recipes strong {
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+ 
+  
+
+
+  
+  
